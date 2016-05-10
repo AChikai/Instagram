@@ -15,8 +15,10 @@ class PostTableViewCell: UITableViewCell {
         @IBOutlet weak var captionLabel: UILabel!
         @IBOutlet weak var likeLabel: UILabel!
         @IBOutlet weak var likeButton: UIButton!
+        @IBOutlet weak var commentLabel: UILabel?
+        @IBOutlet weak var commentButton: UIButton!
     
-    var postData: PostData?
+        var postData: PostData?
     
         override func awakeFromNib() {
         super.awakeFromNib()
@@ -33,6 +35,18 @@ class PostTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         postImageView.image = postData!.image
         captionLabel.text = "\(postData!.name!) : \(postData!.caption!)"
+              
+        if ((postData?.comment) == nil) {
+            commentLabel?.text = "コメント欄"
+        } else {
+            //let commentatorComent = postData!.commentatorComment
+            //commentLabel!.text = "commentatorComent".joinWithSeparator("\n ")
+            let commentator = postData!.name ?? ""
+            let comment = postData!.comment.joinWithSeparator("\n ")
+            commentLabel?.text = "\(commentator) : \(comment)"//.joinWithSeparator("\n ")
+            
+        }
+        
         
         let likeNumber = postData!.likes.count
         likeLabel.text = "\(likeNumber)"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3B35191CD70C05008B5F25 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B35181CD70C05008B5F25 /* CommentViewController.swift */; };
 		1B50F8FB1CD084CF00DC5BAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50F8FA1CD084CF00DC5BAA /* AppDelegate.swift */; };
 		1B50F8FD1CD084CF00DC5BAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B50F8FC1CD084CF00DC5BAA /* ViewController.swift */; };
 		1B50F9001CD084CF00DC5BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B50F8FE1CD084CF00DC5BAA /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B3B35181CD70C05008B5F25 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		1B50F8F71CD084CF00DC5BAA /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B50F8FA1CD084CF00DC5BAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B50F8FC1CD084CF00DC5BAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -175,16 +177,17 @@
 				1B50F8FA1CD084CF00DC5BAA /* AppDelegate.swift */,
 				1B50F8FC1CD084CF00DC5BAA /* ViewController.swift */,
 				1B50F9381CD08F1C00DC5BAA /* LoginViewController.swift */,
-				1B50F9301CD087BD00DC5BAA /* HomeViewController.swift */,
 				1B50F9321CD0884500DC5BAA /* ImageSelectViewController.swift */,
 				1B50F9341CD0888400DC5BAA /* PostViewController.swift */,
 				1B50F9361CD088C300DC5BAA /* SettingViewController.swift */,
-				1B50F93A1CD0A28F00DC5BAA /* Const.swift */,
-				1B50F9601CD1B05500DC5BAA /* Instagram-Bridging-Header.h */,
+				1B50F9301CD087BD00DC5BAA /* HomeViewController.swift */,
 				1B50F9611CD1D56500DC5BAA /* PostData.swift */,
 				1B50F9671CD1F12500DC5BAA /* PostTableViewCell.swift */,
+				1B3B35181CD70C05008B5F25 /* CommentViewController.swift */,
 				1B50F9681CD1F12500DC5BAA /* PostTableViewCell.xib */,
 				1B50F8FE1CD084CF00DC5BAA /* Main.storyboard */,
+				1B50F93A1CD0A28F00DC5BAA /* Const.swift */,
+				1B50F9601CD1B05500DC5BAA /* Instagram-Bridging-Header.h */,
 				1B50F9011CD084CF00DC5BAA /* Assets.xcassets */,
 				1B50F90C1CD085A000DC5BAA /* btn.png */,
 				1B50F90D1CD085A000DC5BAA /* btn@2x.png */,
@@ -395,6 +398,7 @@
 				1B50F93B1CD0A28F00DC5BAA /* Const.swift in Sources */,
 				1B50F9351CD0888400DC5BAA /* PostViewController.swift in Sources */,
 				1B50F9371CD088C300DC5BAA /* SettingViewController.swift in Sources */,
+				1B3B35191CD70C05008B5F25 /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
